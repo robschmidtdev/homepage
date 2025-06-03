@@ -6,7 +6,7 @@ export const About = () => {
     "TypeScript",
     "TailwindCSS",
     "MaterialUI",
-    // "Bootstrap",
+    "Bootstrap",
     "Python (+Django)",
     "PHP",
     "PostgreSQL",
