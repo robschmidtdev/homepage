@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { StarBackground } from "../StarBackground";
 
 export const Home = () => {
   return (
@@ -6,6 +7,7 @@ export const Home = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative"
     >
+      <StarBackground />
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-gray-400 bg-clip-text text-transparent leading-right">
