@@ -15,7 +15,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm a developer with 5+ years of experience in React. <br/> Backed by strong skills in Python and PHP, I can develop and contribute to cutting-edge systems, including Agentic AI Applications.
+            I'm a developer with 5+ years of experience in React. <br/> Backed by strong skills in Python and PHP, I can develop and contribute to cutting-edge systems of many kinds, including Agentic AI Applications.
           </p>
           <div className="flex justify-center space-x-4">
             <a
