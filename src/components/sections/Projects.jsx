@@ -41,6 +41,48 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+
+            {/* <div
+              className="
+              glass p-6 rounded-xl border border-white/10 
+              hover:-translate-y-1 hover:border-green-500/30
+              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
+              transition-all
+            "
+            >
+              <h3 className="text-xl font-bold mb-2">Agentic AI TeamBuilder</h3>
+              <p className="text-gray-400 mb-4">
+                Agentic AI TeamBuilder uses employee data and skills to intelligently suggest optimal project teams.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["JavaScript", "RobJS", "PHP"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="
+                      bg-green-500/10 text-green-500 py-1 px-3 
+                      rounded-full text-sm
+                      transition
+                      hover:bg-green-500/20 hover:-translate-y-0.5
+                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
+                    "
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex justify-between items-center">
+                <a
+                  href="https://robschmidtdev.github.io/agenticai/"
+                  target="blank"
+                  className="text-green-400 hover:text-green-300 transition-colors my-4"
+                >
+                  View Project →
+                </a>
+              </div>
+            
+            </div> */}
+
             <div
               className="
               glass p-6 rounded-xl border border-white/10 
@@ -79,7 +121,8 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
-            <div
+
+            {/* <div
               className="
               glass p-6 rounded-xl border border-white/10 
               hover:-translate-y-1 hover:border-green-500/30
@@ -116,8 +159,9 @@ export const Projects = () => {
                   View Project →
                 </a>
               </div>
-            </div>
-            <div
+            </div>  */}
+
+            {/* <div
               className="
               glass p-6 rounded-xl border border-white/10 
               hover:-translate-y-1 hover:border-green-500/30
@@ -145,6 +189,7 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
+
               <div className="flex justify-between items-center">
                 <a
                   target="blank"
@@ -153,7 +198,8 @@ export const Projects = () => {
                   Coming Soon
                 </a>
               </div>
-            </div>
+            
+            </div> */}
           </div>
         </div>
       </RevealOnScroll>

@@ -11,11 +11,11 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-gray-400 bg-clip-text text-transparent leading-right">
-            Hi, I'm Rob Schmidt
+            Robert Schmidt
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I'm a developer with 5+ years of experience in React. <br/> Backed with strong skills in Python and PHP, I can build and contribute to almost anything.
+            I'm a developer with 5+ years of experience in React. <br/> Backed by strong skills in Python and PHP, I can develop and contribute to cutting-edge systems, including Agentic AI Applications.
           </p>
           <div className="flex justify-center space-x-4">
             <a

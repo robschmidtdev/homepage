@@ -26,7 +26,8 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              I build modern frontends for web applications and craft innovative solutions that bring ideas to life.
+              I build modern web applications and craft innovative solutions that bring ideas to life.<br /><br />
+              In my spare time I enjoy to create music in combination with embedded- and audio programming.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
