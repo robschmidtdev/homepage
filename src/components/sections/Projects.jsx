@@ -91,9 +91,9 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Abstract Art Through Code</h3>
+              <h3 className="text-xl font-bold mb-2">The Krell Patch</h3>
               <p className="text-gray-400 mb-4">
-                Creative flowfield simulations in JavaScript that transform any image into captivating abstract art.
+                Implementation of the legendary Krell Patch from the movie Forbidden Planet. A fun webapp that generates unique soundscapes to inspire creativity and relaxation.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["JavaScript"].map((tech, key) => (
@@ -113,7 +113,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://robschmidtdev.github.io/abstractartflowfield/"
+                  href="https://robschmidtdev.github.io/krellpatch/"
                   target="blank"
                   className="text-green-400 hover:text-green-300 transition-colors my-4"
                 >
