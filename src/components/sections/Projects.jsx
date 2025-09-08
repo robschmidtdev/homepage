@@ -14,7 +14,7 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-green-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">A Minimalistic Frontend Framework</h3>
+              <h3 className="text-xl font-bold mb-2">A Minimalistic Frontend Engine</h3>
               <p className="text-gray-400 mb-4">
                 RobJS - offers a React-like experience while staying within the vanilla JavaScript ecosystem, providing fully functional features with fast build performance.
               </p>
@@ -33,7 +33,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://robjs.org"
+                  href="https://robschmidtdev.github.io/robjs.org/"
                   target="blank"
                   className="text-green-400 hover:text-green-300 transition-colors my-4"
                 >
@@ -41,47 +41,6 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
-
-            {/* <div
-              className="
-              glass p-6 rounded-xl border border-white/10 
-              hover:-translate-y-1 hover:border-green-500/30
-              hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)]
-              transition-all
-            "
-            >
-              <h3 className="text-xl font-bold mb-2">Agentic AI TeamBuilder</h3>
-              <p className="text-gray-400 mb-4">
-                Agentic AI TeamBuilder uses employee data and skills to intelligently suggest optimal project teams.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["JavaScript", "RobJS", "PHP"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="
-                      bg-green-500/10 text-green-500 py-1 px-3 
-                      rounded-full text-sm
-                      transition
-                      hover:bg-green-500/20 hover:-translate-y-0.5
-                      hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)]
-                    "
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://robschmidtdev.github.io/agenticai/"
-                  target="blank"
-                  className="text-green-400 hover:text-green-300 transition-colors my-4"
-                >
-                  View Project →
-                </a>
-              </div>
-            
-            </div> */}
 
             <div
               className="
@@ -93,10 +52,10 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">The Krell Patch</h3>
               <p className="text-gray-400 mb-4">
-                Implementation of the legendary Krell Patch from the movie Forbidden Planet. A fun webapp that generates unique soundscapes to inspire creativity and relaxation.
+                Implementation of the legendary Krell Patch from the movie Forbidden Planet. A fun webapp that generates unique soundscapes to work or relax.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["JavaScript"].map((tech, key) => (
+                {["JavaScript", "Tone.js"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -122,7 +81,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            {/* <div
+            <div
               className="
               glass p-6 rounded-xl border border-white/10 
               hover:-translate-y-1 hover:border-green-500/30
@@ -130,12 +89,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">TuneSpring Product Animation</h3>
+              <h3 className="text-xl font-bold mb-2">Status</h3>
               <p className="text-gray-400 mb-4">
-                A sleek 3D animation that brings the product to life, captivate users and showcase the brand with style.
+                A stylish board to track your tasks and projects. Drag and drop tasks between columns, add new tasks, and manage your workflow with ease.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["JavaScript", "Three.js"].map((tech, key) => (
+                {["React", "PHP"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -152,16 +111,16 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://robschmidtdev.github.io/tunespring/"
+                  href="https://robschmidt.info/status/"
                   target="blank"
                   className="text-green-400 hover:text-green-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
-            </div>  */}
+            </div> 
 
-            {/* <div
+            <div
               className="
               glass p-6 rounded-xl border border-white/10 
               hover:-translate-y-1 hover:border-green-500/30
@@ -199,7 +158,7 @@ export const Projects = () => {
                 </a>
               </div>
             
-            </div> */}
+            </div>
           </div>
         </div>
       </RevealOnScroll>

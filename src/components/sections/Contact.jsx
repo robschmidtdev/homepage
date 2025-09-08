@@ -14,7 +14,7 @@ export const Contact = () => {
             Get In Touch
           </h2>
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            robert[at]robschmidt[dot]dev
+            robert[at]robschmidt[dot]info
           </p>
         </div>
       </RevealOnScroll>
